@@ -21,4 +21,8 @@ public class EmployeeController {
     public String ViewAll(){
         return "Welcome to my Viewall page";
     }
+    @GetMapping("/delete")
+    public String Delete(){
+        return "Welcome to my Delete page";
+    }
 }
