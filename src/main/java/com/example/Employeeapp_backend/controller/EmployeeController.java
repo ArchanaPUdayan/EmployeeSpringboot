@@ -9,5 +9,9 @@ public class EmployeeController {
     public String Addpage(){
         return "Welcome to my add page";
     }
+    @GetMapping("/search")
+    public String Searchpage(){
+        return "Welcome to my search page";
+    }
 
 }
