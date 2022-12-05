@@ -13,5 +13,8 @@ public class EmployeeController {
     public String Searchpage(){
         return "Welcome to my search page";
     }
-
+    @GetMapping("/edit")
+    public String Editpage(){
+        return "Welcome to my edit page";
+    }
 }
