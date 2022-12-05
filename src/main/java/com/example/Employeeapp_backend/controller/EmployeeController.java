@@ -17,4 +17,8 @@ public class EmployeeController {
     public String Editpage(){
         return "Welcome to my edit page";
     }
+    @GetMapping("/viewall")
+    public String ViewAll(){
+        return "Welcome to my Viewall page";
+    }
 }
